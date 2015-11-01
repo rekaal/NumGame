@@ -1,0 +1,5 @@
+D:\github\NumGame\GameLibrary\bin\Debug\GameLibrary.dll
+D:\github\NumGame\GameLibrary\bin\Debug\GameLibrary.pdb
+D:\github\NumGame\GameLibrary\obj\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+D:\github\NumGame\GameLibrary\obj\Debug\GameLibrary.dll
+D:\github\NumGame\GameLibrary\obj\Debug\GameLibrary.pdb

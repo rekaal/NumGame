@@ -1,0 +1,11 @@
+D:\github\NumGame\NumGame\bin\Debug\NumGame.exe.config
+D:\github\NumGame\NumGame\bin\Debug\NumGame.exe
+D:\github\NumGame\NumGame\bin\Debug\NumGame.pdb
+D:\github\NumGame\NumGame\bin\Debug\GameLibrary.dll
+D:\github\NumGame\NumGame\bin\Debug\GameLibrary.pdb
+D:\github\NumGame\NumGame\obj\Debug\NumGame.csprojResolveAssemblyReference.cache
+D:\github\NumGame\NumGame\obj\Debug\NumGame.Form1.resources
+D:\github\NumGame\NumGame\obj\Debug\NumGame.Properties.Resources.resources
+D:\github\NumGame\NumGame\obj\Debug\NumGame.csproj.GenerateResource.Cache
+D:\github\NumGame\NumGame\obj\Debug\NumGame.exe
+D:\github\NumGame\NumGame\obj\Debug\NumGame.pdb
