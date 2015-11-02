@@ -14,7 +14,8 @@ namespace NumGame
     public partial class Form1 : Form
     {
         public Game Game = new Game();
-        private List<int> UserAnswer = new List<int>();
+        public List<int> UserAnswer = new List<int>();
+        public int index = 0;
 
         public Form1()
         {
@@ -25,6 +26,8 @@ namespace NumGame
 
         private void enter_Click(object sender, EventArgs e)
         {
+            resultList.Text = UserAnswer + Game.GetResult(Game.answer);
+            //resultList.Text = Game.ConvertNumbersToString(UserAnswer);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -33,10 +36,10 @@ namespace NumGame
             int.TryParse(textBox1.Text, out UserAns);
             if (textBox1.Text.Length < 4)//判斷玩家輸入數字數量
             { }
+            else if (textBox1.Text.Length == 4)
+            { UserAnswer.Add(UserAns); }
             else
-            {
-                UserAnswer.Add(UserAns);
-            }//加入清單UserAnswer
+            { }
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)

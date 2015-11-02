@@ -9,7 +9,6 @@ namespace GameLibrary
     public class Game
     {
         public List<int> answer = new List<int>();//增加一個清單answer
-
         private Random random = new Random();//設置隨機變數
 
         public string GetResult(List<int> userAnswer)//字串GetResult(清單-使用者答案)判斷幾A幾B
@@ -32,7 +31,7 @@ namespace GameLibrary
             }
             //result += "Game Answer:" + this.ConvertNumbersToString(this.answer) + "\n";
             result += "User Answer:" + this.ConvertNumbersToString(userAnswer) + "\n";
-            return result + string.Format("\n{0}A{1}B", aCount, bCount);
+            return string.Format("\n{0}A{1}B", aCount, bCount);
         }
 
         public List<int> CreateNumbers()
